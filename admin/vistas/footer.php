@@ -2,7 +2,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 0.1.2
     </div>
-    <!--  Leyenda derechos reservados -->
+    <!--  Leyenda derechos -->
     <strong>CENTRO FEDERAL DE CONCILIACIÓN Y REGISTRO LABORAL <a target="_blank" href="#">    Sistema de Control de Asistencia</a></strong> 
       Todos los derechos    reservados.
   </footer>

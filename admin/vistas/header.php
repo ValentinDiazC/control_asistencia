@@ -53,11 +53,20 @@ if (strlen(session_id())<1)
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>ASISTENCIA</b></span>
     </a>
+
+    
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
+
+    <strong>CENTRO FEDERAL DE CONCILIACIÓN Y REGISTRO LABORAL</a></strong> 
+  
+
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
             <span class="sr-only">Navegación</span>
+
+           
+
           </a>
 
       <div class="navbar-custom-menu">
@@ -75,7 +84,7 @@ if (strlen(session_id())<1)
 
                 <p>
                   <?php echo $_SESSION['nombre'].' '.$_SESSION['departamento']; ?>
-                  <small>Desarrollo de sistemas informáticos</small>
+                  <small>Control de Asistencia CFCRL</small>
                 </p>
               </li>
               <!-- Menu Footer-->
