@@ -51,7 +51,7 @@ if (strlen(session_id())<1)
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>CC</b> A</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>CC</b> ADMIN</span>
+      <span class="logo-lg"><b>ASISTENCIA</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -114,7 +114,7 @@ if (strlen(session_id())<1)
       <li class="header">MENÚ DE NAVEGACIÓN</li>
 
 
-      <li><a href="escritorio.php"><i class="fa  fa-dashboard (alias)"></i> <span>Escritorio</span></a></li>
+      <li><a href="escritorio.php"><i class="fa fa-home"></i> <span>Escritorio</span></a></li>
 
 <!--
       <li class="treeview">
@@ -140,9 +140,9 @@ if (strlen(session_id())<1)
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="usuario.php"><i class="fa fa-circle-o"></i> Usuarios</a></li>
-            <li><a href="tipousuario.php"><i class="fa fa-circle-o"></i> Tipo Usuario</a></li>
-            <li><a href="departamento.php"><i class="fa fa-circle-o"></i> Departamento</a></li>
+            <li><a href="usuario.php"><i class="fa fa-user"></i> Usuarios</a></li>
+            <li><a href="tipousuario.php"><i class="fa fa-users"></i> Tipo Usuario</a></li>
+            <li><a href="departamento.php"><i class="fa fa-sitemap"></i> Departamento</a></li>
           </ul>
       </li>
 
@@ -154,7 +154,7 @@ if (strlen(session_id())<1)
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="departamento.php"><i class="fa fa-circle-o"></i> Departamento</a></li>            
+            <li><a href="departamento.php"><i class="fa fa-sitemap"></i> Departamento</a></li>            
           </ul>
       </li>
 
@@ -188,9 +188,15 @@ if (strlen(session_id())<1)
           </ul>
       </li>
 <?php } ?>
-  
-      <li><a href="#"><i class="fa fa-question-circle"></i> <span>Ayuda</span><small class="label pull-right bg-yellow">PDF</small></a></li>
-      <li><a href="https://www.compartiendocodigos.net/"><i class="fa  fa-exclamation-circle"></i> <span>Acerca de</span><small class="label pull-right bg-yellow">ComCod</small></a></li>   
+     <!-- NECESITAS AYUDA -->
+      <li><a href="#"><i class="fa fa-question-circle"></i> <span> </span><small class="label pull-right bg-red"> Necesitas ayuda? <br>Envia un correo a: </small></a></li>
+
+      
+<!-- CORREO DE MESA DE SERVICIO -->
+      <li><a href="#"></i> <span> </span><small class="label pull-right bg-green"> mesadeservicio@centrolaboral.gob.mx</small></a></li>
+
+     <!-- ENLACE A PAGINA DE CFCRL -->
+      <li><a href="https://centrolaboral.gob.mx/"><i class="fa  fa-exclamation-circle"></i> <span>CFCRL</span><small class="label pull-right bg-yellow">CFCRL</small></a></li>   
         
       </ul>
     </section>

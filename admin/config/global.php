@@ -7,11 +7,11 @@ define("DB_NAME", "control_asistencia");
 
 
 //nombre de usuario de base de datos
-define("DB_USERNAME", "root");
+define("DB_USERNAME", "dcov");
 //define("DB_USERNAME", "root");
 
 //conraseña del usuario de base de datos
-define("DB_PASSWORD", "root");
+define("DB_PASSWORD", "dcov");
 //define("DB_PASSWORD", "root");
 
 //codificacion de caracteres

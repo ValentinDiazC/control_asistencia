@@ -2,8 +2,9 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 0.1.2
     </div>
-    <strong>Copyright &copy; 2019-2020 <a target="_blank" href="#">Sistema Asistencia</a></strong> Todo los derechos
-    reservados.
+    <!--  Leyenda derechos reservados -->
+    <strong>CENTRO FEDERAL DE CONCILIACIÓN Y REGISTRO LABORAL <a target="_blank" href="#">    Sistema de Control de Asistencia</a></strong> 
+      Todos los derechos    reservados.
   </footer>
 
 <!-- jQuery 3 -->
