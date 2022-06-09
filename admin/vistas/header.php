@@ -4,10 +4,11 @@ if (strlen(session_id())<1)
   ?>
  <!DOCTYPE html>
 <html>
+  <!--PAGINA PRINCIPAL DESPUES DEL ACCESO-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>CC | Admin</title>
+   <title>CONTROL DE ASISTENCIA CFCRL </title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3 -->
@@ -44,6 +45,7 @@ if (strlen(session_id())<1)
   logged_out_greeting="Hola! deseas compartir algún sistema o descargar ?">
 </div>
 <div class="wrapper">
+ 
 
   <header class="main-header">
     <!-- Logo -->
@@ -52,14 +54,37 @@ if (strlen(session_id())<1)
       <span class="logo-mini"><b>CC</b> A</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>ASISTENCIA</b></span>
-    </a>
 
+      <!--  <strong><h3><center><p style="color:#E6E0D4";>  CONTROL DE ASISTENCIA DEL CENTRO FEDERAL DE CONCILIACIÓN Y REGISTRO LABORAL</p></center></h3></strong>  -->
+
+      
+    </a>
+ 
     
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
+         <!-- SE AGREGA LOGO DEL CFCRL-->
+         <div class="pull-left image">
+         <!-- <img src="../files/usuarios/cfcrl1.png" class="img-square" style="width: 90px; height: 90px;"> -->
 
-    <strong>CENTRO FEDERAL DE CONCILIACIÓN Y REGISTRO LABORAL</a></strong> 
-  
+
+         <img src="../files/usuarios/<?php echo $_SESSION['imagen']; ?>" class="img-square" style="width: 90px; height: 90px;" alt="User Image">
+        <!-- <img style="border: 1px solid; color: black;" src="URL" alt="" width="300" height="300" /> -->
+        
+        
+        </div>
+          <!-- texto de control de asistencia del CFCRL-->
+         
+    <strong><h3><center><p style="color:#E6E0D4";>  CONTROL DE ASISTENCIA DEL CENTRO FEDERAL DE CONCILIACIÓN Y REGISTRO LABORAL</p></center></h3></strong> 
+   
+    
+
+     </a>
+   
+    
+    
+
+
 
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
@@ -115,7 +140,7 @@ if (strlen(session_id())<1)
         </div>
         <div class="pull-left info">
           <p><?php echo $_SESSION['nombre']; ?></p>
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <a href="#"><i class="fa fa-circle text-success"></i> En linea</a>
         </div>
       </div>
       <!-- sidebar menu: : style can be found in sidebar.less -->
@@ -151,7 +176,7 @@ if (strlen(session_id())<1)
           <ul class="treeview-menu">
             <li><a href="usuario.php"><i class="fa fa-user"></i> Usuarios</a></li>
             <li><a href="tipousuario.php"><i class="fa fa-users"></i> Tipo Usuario</a></li>
-            <li><a href="departamento.php"><i class="fa fa-sitemap"></i> Departamento</a></li>
+            <!-- <li><a href="departamento.php"><i class="fa fa-sitemap"></i> Departamento</a></li> -->
           </ul>
       </li>
 

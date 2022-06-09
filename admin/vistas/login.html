@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
+
+<!--PAGINA DE REGISTRO (LOGIN)-->
   <head>
+
+
+
+        
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CC | Admin</title>
+    <title>INGRESO A CONTROL DE ASISTENCIA</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -17,15 +23,54 @@
     <link rel="stylesheet" href="../public/css/blue.css">
     <link rel="shortcut icon" href="../public/img/favicon.ico">
 
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      $(window).on('load',function(){
+          $('#ventanaModal').modal('show');
+      });
+  </script>
+
+
+
+
+
+
+
+
+
+
   </head>
+  
+        
+  </header>
+  <body class="hold-transition lockscreen" style="background-color:#E6E0D4"></body>
   <body class="hold-transition login-page">
 
     <div class="login-box">
       <div class="login-logo">
-       <a href="login.html"><b>CONTROL DE ASISTENCIA CFCRL</b> </a>
-      </div><!-- /.login-logo -->
+       
+      
+
+
+        
+       <a href="login.html"><b>CONTROL DE ASISTENCIA CFCRL   </b> </a>
+      
+
+
+
+
+
+      
+
+
+      </div>   <!-- /.login-logo -->
       <div class="login-box-body">
-      <H2> <p class="login-box-msg">Ingrese Usuario y Password</p> </H2>
+      <h2> <p class="login-box-msg">Ingrese Usuario y Password</p> </2>
         <form method="post" id="frmAcceso">
           <div class="form-group has-feedback">
             <input type="text" id="logina" name="logina" class="form-control" placeholder="Usuario">
@@ -40,7 +85,9 @@
               
             </div><!-- /.col -->
             <div class="col-xs-4">
-              <button type="submit" class="btn btn-primary btn-block btn-flat"> Ingresar</button>
+              <button type="submit" class="btn btn-primary btn-lg"> Ingresar</button>
+              
+            
             </div><!-- /.col -->
           </div>
         </form>        
@@ -58,5 +105,85 @@
     <script type="text/javascript" src="scripts/login.js"></script>
 
 
+    
+
+
+
+
+
   </body>
+
+
+<!-- VENTANA MODAL describir la ventana -->
+<div class="modal" id="ventanaModal">
+  <div  class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+       
+        <img src="emergente.jpg"
+        alt="emergente" width="50" height="50" />
+        <center>
+        
+      <!--style="margin-left: 50px;"   PARA CENTRAR TEXTO -->
+          <h1 style="margin-left: 50px; "  > <b><FONT COLOR="#9D2449" > ¿PROBLEMAS PARA ACCESAR? </FONT></b>  </h1> 
+          
+         
+        </center>
+    
+
+       
+        <button type="button" class="close" data-dismiss="modal">
+          &times;
+        </button>
+      </div>
+
+      
+ <!-- contenido de la ventana emergente -->
+ <div class="modal-body">
+  <p id="contenido"> 
+    
+    <center>
+      <h3> <b> <FONT COLOR="#235B4E">Si tienes problemas para accesar envia un correo a: </FONT> </b> </h3> 
+    <br>
+    <h3> <FONT COLOR="#235B4E"> mesadeservicio@centrolaboral.gob.mx</FONT> </h3>
+  
+      
+    </center>
+  
+  </p>
+</div>
+<!-- pie de la ventana -->
+<div class="modal-footer"> 
+  <button type="button" class="btn btn-warning" data-dismiss="modal">
+    <b>Cerrar ventana emergente </b>
+  </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+
+  //TERMINA VENTANA EMERGENTE//
+//OBJETO DESCRITO
+
+
+
+      
+     
+
+
+</script>
+
+
+
+  <footer>
+    <center>
+    <h4> <FONT COLOR="#235B4E">Si tienes problemas para accesar solicita apoyo a mesa de servicio</FONT> </h4> 
+    <br> 
+    <h4> <FONT COLOR="#235B4E">mesadeservicio@centrolaboral.gob.mx</FONT> </h4> 
+ 
+    
+    </center>
+  </footer>
 </html> 
